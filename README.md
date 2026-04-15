@@ -7,7 +7,7 @@ This project introduces a lightweight early intrusion detection system that comb
 The system is designed to transfer knowledge from a high-performance Teacher model to a lightweight Student model, ensuring robust security performance even on low-spec edge devices.
 
 ### 1. Model Structure
-[Overall Architecture](./configs/overall_architecture.png)
+![Overall Architecture](./configs/overall_architecture.png)
 
 * **Backbone:** Utilizes a Transformer architecture with a **Linear Attention** mechanism to maximize computational efficiency.
 * **KAN (Kolmogorov-Arnold Networks):** Replaces the MLP layers in the Teacher model with KAN to learn complex attack patterns precisely with fewer parameters.
